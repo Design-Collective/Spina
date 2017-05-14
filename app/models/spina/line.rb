@@ -1,6 +1,6 @@
 module Spina
   class Line < ApplicationRecord
-    translates :content
+    #translates :content
 
     has_many :page_parts, as: :page_partable
     has_many :layout_parts, as: :layout_partable

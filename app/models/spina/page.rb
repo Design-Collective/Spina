@@ -2,7 +2,7 @@ module Spina
   class Page < ApplicationRecord
     include Spina::Partable
 
-    translates :title, :menu_title, :seo_title, :description, :materialized_path
+    #translates :title, :menu_title, :seo_title, :description, :materialized_path
 
     attr_accessor :old_path
 
